@@ -1,4 +1,12 @@
-### Hi there 👋
+# Welcome to my GitHub! 🖖
+
+### About me
+- 👷 Formely [LeafLink](https://www.leaflink.com/), [DowJones](https://www.dowjones.com/).
+- 🏠 NYC
+
+### HMU
+[![Twitter](https://img.shields.io/badge/-Twitter-333333?style=flat&logo=twitter)](https://www.twitter.com/rubprofit/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/benprofit/)](https://www.linkedin.com/in/benprofit/)
 
 <!--
 **rubenprofit/rubenprofit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +22,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
