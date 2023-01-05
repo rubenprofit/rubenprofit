@@ -1,0 +1,17 @@
+{
+  "siteMetadata": {
+    "title": "Ruben Profit",
+    "author": {
+      "name": "Ruben Profit",
+      "summary": "Engineer from Queens, NY"
+    },
+    "description": "A blog by Ruben Profit",
+    "siteUrl": "https://rubenprofit.com/",
+    "sourceUrl": "https://github.com/rubenprofit/rubenprofit/tree/main/blog",
+    "language": "en-US",
+    "social": {
+      "github": "rubenprofit",
+      "twitter": "rubprofit"
+    }
+  }
+}

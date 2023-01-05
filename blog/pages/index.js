@@ -1,6 +1,7 @@
-import Head from "next/head";
-import { compareDesc } from "date-fns";
+import { Layout } from "@components/Layout/Layout";
+import { SEO } from "@components/SEO/SEO";
 import { allPosts } from "contentlayer/generated";
+import { compareDesc } from "date-fns";
 
 export async function getStaticProps() {
   const posts = allPosts.sort((a, b) => {
@@ -10,16 +11,32 @@ export async function getStaticProps() {
 }
 
 export default function Home({ posts }) {
+  const description = "Landing page";
   return (
-    <div className="mx-auto max-w-2xl py-16 text-center">
-      <Head>
-        <title>Ruben Profit - Home</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <p className="text-xl">Coming soon...</p>
-      </main>
-    </div>
+    <>
+      <SEO title="Home" description={description} />
+      <Layout>
+        <section className="flex items-center text-center h-full">
+          <div className="m-3 p-3">
+            <h1 className="text-xl">
+              Welcome to my little corner of the internet.
+            </h1>
+            <br />
+            <p className="font-sm">
+              It's a work in progress so feel free to poke around and explore.
+              If you have any feedback or just want to hit me up, the best
+              method is via{" "}
+              <a
+                href="mailto:me@rubenprofit.com"
+                className="underline underline-offset-4"
+              >
+                email
+              </a>
+              . Enjoy!
+            </p>
+          </div>
+        </section>
+      </Layout>
+    </>
   );
 }
